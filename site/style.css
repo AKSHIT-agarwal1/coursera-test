@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	box-sizing: border-box;
+}
+body {
+	font-size: 120%;
+}
+h1 {
+	margin:30px 10px 30px 10px ;
+	color:red;
+	background-color: white;
+	text-align: center;
+	border: 3px dashed blue;
+	height:75px;
+	overflow: auto;
+
+}
+div{
+	width:100%;
+}
+@media (min-width: 1200px){
+	.l4{
+		width:20%;
+		float: left;
+	}
+}
+@media (max-width: 1199px){
+	.m6{
+		width:45%;
+		float: left;
+	}
+}
+p {
+	margin:2px;
+	padding: 5px;
+	border:5px solid black;
+	height:200px;
+	background-color: red;
+}
